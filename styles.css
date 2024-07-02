@@ -7,6 +7,10 @@ body, html {
     font-size: 16px;
 }
 
+
+/* Navbar */
+
+
 .navbar {
     width: 100%;
     display: flex;
@@ -50,8 +54,11 @@ body, html {
     color: white;
 }
 
+
+/*first div*/
+
 .banner {
-    background-image: url('banner.png');
+    background-image: url('images/banner.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -135,6 +142,10 @@ button:hover {
     background-color: #FF6347;
 }
 
+
+/*second div*/
+
+
 .feature-cards {
     width: 100%;
     display: flex;
@@ -194,6 +205,10 @@ button:hover {
     color: white;
 }
 
+
+
+/*third div*/
+
 .about-us {
     display: flex;
     align-items: center;
@@ -221,12 +236,17 @@ button:hover {
 .about-us-images-row2 {
     display: flex;
     gap: 10px;
+    padding-right: 10px;
 }
 
 .about-us-image {
     width: calc(50% - 5px);
     height: auto;
     display: block;
+}
+
+.about-us-heading {
+    font-family: pacifico;
 }
 
 .about-us-image2 {
@@ -315,4 +335,558 @@ button {
 
 button:hover {
     background-color: #E59400;
+}
+
+
+
+
+/*fourth div*/
+
+.menu-section {
+    
+
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 10%;
+    width: 100%;
+}
+
+.section-heading1 {
+    color: #FFA500;
+    font-size: 1em;
+    margin-bottom: 0%;
+    font-family: pacifico;
+    font-weight: 400;
+}
+
+.section-heading2 {
+    margin-top: 0%;
+    color: #000000;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.menu-types {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    gap: 0px;
+    margin-bottom: 30px;
+}
+
+.menu-type {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 3px solid #DEE2E6;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+
+.menu-type-text {
+
+    justify-content: start;
+}
+
+.menu-type-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.menu-type:hover {
+    border-bottom: #FFA500 3px solid;
+}
+
+.menu-type.active {
+    border-bottom: #FFA500 3px solid;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;   
+}
+
+.menu-item {
+    width: 45%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+}
+
+.menu-item-img {
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.menu-item-title-and-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 3px solid #DEE2E6;
+}
+
+.menu-item h4 {
+    color: #333;
+}
+
+.menu-item-p {
+    color: #666565;
+    font-size: 1em;
+}
+
+.price {
+    font-size: 1em;
+    font-weight: bold;
+    color: #FFA500;
+    align-self: center;
+}
+
+
+/*fifth div*/
+
+.reservation-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 10%;
+    background-color:#0F172B;
+    width: 100%;
+}
+
+.reservation-image {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.reservation-content {
+width: 100%;
+}
+
+
+.reservation-form {
+    width: 100%;
+    max-width: 400px; /* Adjust width as needed */
+
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 20px 0% 20px 5%;
+    text-align: center;
+}
+
+.reservation-form h2 {
+    color: #FFA500; /* Orange color as per design */
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="datetime-local"],
+select,
+textarea {
+    width: 100%; /* Splits the row into two inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+textarea {
+    width: 98%; /* Full width for textarea */
+    height: 80px; /* Set a fixed height */
+}
+
+.form-select {
+
+}
+
+
+.reservation-form button {
+    font-family: poppins;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    background-color: #FFA500; /* Orange background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.reservation-form button:hover {
+    background-color: #E59400; /* Darker orange on hover */
+}
+
+input, select, button {
+    font-family: 'Poppins', sans-serif; /* Ensures font consistency */
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus {
+    border-color: #FFA500; /* Orange border for focus */
+}
+
+.section-heading3 {
+    color: #FFA500;
+    font-size: 1em;
+    margin-bottom: 0%;
+    font-family: pacifico;
+    font-weight: 400;
+    padding-left: 5%;
+}
+
+.section-heading4{
+    margin-top: 0%;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-left: 5%;
+}
+
+
+
+/*sixth div*/
+.team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 10%;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 3%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Fixed width */
+    text-align: center;
+    position: relative; /* Needed for proper hover effect */
+    overflow: hidden; /* Ensures children don't pop out of border radius */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transformation and color change */
+}
+
+.profile-pic {
+    width: 85%;
+    border-radius: 50%;
+    margin: 20px auto 10px; /* Updated margin */
+    overflow: hidden;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.team-member h3, .team-member p {
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.team-member p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.social-media {
+    margin-top: 10px;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+
+.social-media a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+    background-color: #FFA500;
+    border-radius: 50%;
+    padding: 5px;
+    transition: background-color 0.3s ease; /* Smooth color change */
+
+}
+
+.team-member:hover {
+    transform: translateY(-10px); /* Moves the card up */
+}
+
+.team-member:hover .social-media {
+    opacity: 1; /* Shows the icons */
+}
+
+
+
+/*seventh div*/
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 10%;
+    background-color: rgb(238, 245, 251);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.testimonial-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px;
+    max-width: 1920px;
+    padding: 10% 10%;
+    gap: 20px;
+    padding-top: 0%;
+}
+
+.testimonial-card {
+    display: block;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card p {
+    color: #666565;
+    text-align: left;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    background-color: #FFA500;
+    color: white;
+}
+
+
+.client-details {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.client-details div img {
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.client-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-self: center;
+}
+.client-name {
+    text-align: end;
+    width: 100%;
+}
+
+.client-details h4 {
+    margin-bottom: 0;
+}
+
+.client-details h4 {
+    color: #333;
+}
+
+.client-details-p {
+    color: #666565;
+    font-size: 1em;
+}
+
+.client-details-p p {
+    margin-top: 0%;
+}
+
+.testimonial-symbol {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
+
+
+/*footer*/
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    background-color: #272F41;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.site-footer {
+    background-color: #272F41; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around the content */
+    font-family: poppins, sans-serif; /* Font styling */
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between; /* Align items on opposite ends */
+    align-items: center;
+    width: 100%;
+    justify-self: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 3%; /* Centering the container */
+    display: flex;
+    justify-content: space-between; /* Space between the copyright and the navigation */
+    align-items: center;
+}
+
+.footer-nav a {
+    color: #fff; /* Links color */
+    text-decoration: none; /* No underline */
+    margin-left: 20px; /* Space between links */
+}
+
+.footer-nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+/*eight div*/
+
+
+.contact-us-banner {
+    background-image: url('images/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: calc(50vh);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    position: relative;
+}
+
+.contact-us-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0F172BE5;
+    z-index: 1;
+}
+
+.contact-us-banner div {
+    width: 50%;
+    z-index: 2;
+}
+
+.contact-us-title {
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: fit-content;
+    width: 45%;
+    text-align: center;
+}
+
+.contact-us-title p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-us-heading {
+    font-weight: 800;
+    font-size: 0.9em;
+    display: inline;
+}
+
+.contact-us-heading h1 {
+    margin-bottom: 0%;
+}
+
+.contact-us-description {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.45em;
+    margin-top: 20px;
+    color: white;
+    display: inline;
+}
+
+.contact-us-description-contact {
+
+    color: #FFA500;
 }
