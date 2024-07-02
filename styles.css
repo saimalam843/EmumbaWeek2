@@ -488,7 +488,7 @@ width: 100%;
 
 .reservation-form {
     width: 100%;
-    max-width: 400px; /* Adjust width as needed */
+    max-width: 400px; 
 
 
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -497,7 +497,7 @@ width: 100%;
 }
 
 .reservation-form h2 {
-    color: #FFA500; /* Orange color as per design */
+    color: #FFA500;
     margin-bottom: 20px;
 }
 
@@ -516,7 +516,7 @@ input[type="email"],
 input[type="datetime-local"],
 select,
 textarea {
-    width: 100%; /* Splits the row into two inputs */
+    width: 100%; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -524,8 +524,8 @@ textarea {
 
 
 textarea {
-    width: 98%; /* Full width for textarea */
-    height: 80px; /* Set a fixed height */
+    width: 98%; 
+    height: 80px;
 }
 
 .form-select {
@@ -538,7 +538,7 @@ textarea {
     font-weight: 500;
     width: 100%;
     padding: 10px;
-    background-color: #FFA500; /* Orange background */
+    background-color: #FFA500; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -548,16 +548,16 @@ textarea {
 }
 
 .reservation-form button:hover {
-    background-color: #E59400; /* Darker orange on hover */
+    background-color: #E59400; 
 }
 
 input, select, button {
-    font-family: 'Poppins', sans-serif; /* Ensures font consistency */
+    font-family: 'Poppins', sans-serif; 
 }
 
 input[type="date"]:focus,
 input[type="time"]:focus {
-    border-color: #FFA500; /* Orange border for focus */
+    border-color: #FFA500; 
 }
 
 .section-heading3 {
@@ -602,9 +602,9 @@ input[type="time"]:focus {
     border-radius: 10px;
     margin-top: 3%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 250px; /* Fixed width */
+    width: 250px; 
     text-align: center;
-    position: relative; /* Needed for proper hover effect */
+    position: relative; 
     overflow: hidden; /* Ensures children don't pop out of border radius */
     transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transformation and color change */
 }
@@ -612,7 +612,7 @@ input[type="time"]:focus {
 .profile-pic {
     width: 85%;
     border-radius: 50%;
-    margin: 20px auto 10px; /* Updated margin */
+    margin: 20px auto 10px; 
     overflow: hidden;
 }
 
@@ -636,8 +636,8 @@ input[type="time"]:focus {
 
 .social-media {
     margin-top: 10px;
-    opacity: 0; /* Hidden by default */
-    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
 }
 
 .social-media a {
@@ -651,16 +651,15 @@ input[type="time"]:focus {
     background-color: #FFA500;
     border-radius: 50%;
     padding: 5px;
-    transition: background-color 0.3s ease; /* Smooth color change */
-
+    transition: background-color 0.3s ease; 
 }
 
 .team-member:hover {
-    transform: translateY(-10px); /* Moves the card up */
+    transform: translateY(-10px); 
 }
 
 .team-member:hover .social-media {
-    opacity: 1; /* Shows the icons */
+    opacity: 1; 
 }
 
 
@@ -783,14 +782,14 @@ input[type="time"]:focus {
 }
 
 .site-footer {
-    background-color: #272F41; /* Dark background */
-    color: #fff; /* White text color */
-    padding: 10px 20px; /* Padding around the content */
-    font-family: poppins, sans-serif; /* Font styling */
+    background-color: #272F41; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-family: poppins, sans-serif; 
     font-size: 16px;
     line-height: 1.5;
     display: flex;
-    justify-content: space-between; /* Align items on opposite ends */
+    justify-content: space-between; 
     align-items: center;
     width: 100%;
     justify-self: center;
@@ -798,21 +797,21 @@ input[type="time"]:focus {
 
 .container {
     width: 100%;
-    max-width: 1200px; /* Maximum width of the container */
-    margin: 0 3%; /* Centering the container */
+    max-width: 1200px; 
+    margin: 0 3%; 
     display: flex;
-    justify-content: space-between; /* Space between the copyright and the navigation */
+    justify-content: space-between; 
     align-items: center;
 }
 
 .footer-nav a {
-    color: #fff; /* Links color */
-    text-decoration: none; /* No underline */
-    margin-left: 20px; /* Space between links */
+    color: #fff; 
+    text-decoration: none; 
+    margin-left: 20px; 
 }
 
 .footer-nav a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
 
