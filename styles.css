@@ -870,6 +870,7 @@ input[type="time"]:focus {
     font-weight: 800;
     font-size: 0.9em;
     display: inline;
+    font-family: nunito;
 }
 
 .contact-us-heading h1 {
@@ -889,3 +890,282 @@ input[type="time"]:focus {
 
     color: #FFA500;
 }
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 10%;
+    background-color: rgb(238, 245, 251);
+    width: 100%;
+}
+
+.section-heading5{
+margin-top: 0%;
+color: #000000;
+font-size: 2.5em;
+margin-bottom: 20px;
+font-weight: 700;
+}
+
+.emails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-self: center;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+.email-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-id p {
+    font-size: 0.75em;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.map {
+    width: auto;
+
+
+}
+
+.form {
+    width: auto;
+    max-width: 700px; 
+    margin: 0 auto;
+    padding: 20px;
+    
+   
+}
+
+.form .form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form .form-group name {
+    width: 48%;
+    margin-right: 0;
+}
+
+
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 100%; 
+    padding: 15px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.form input[type="text"]:nth-child(3) {
+    width: 100%; 
+}
+
+.form textarea {
+    width: 100%; 
+    height: 150px; 
+    resize: none; 
+}
+
+.form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #FFA500; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.form button:hover {
+    background-color: #E59400; 
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5% 5%;
+    }
+
+    .navbar div:last-child {
+        display: none; 
+    }
+
+   
+    .navbar:after {
+        content: '☰';
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        font-size: 2rem;
+        color: white;
+    }
+
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 5% 5%;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .title, .food-image {
+        width: 100%;
+        z-index: 2;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .title h1 {
+        margin-top: 25%;
+    }
+
+    .title p {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .food-image img {
+        padding: 0;
+        width: 100%;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #FFA500;
+        border: none;
+        color: white;
+        cursor: pointer;
+        width: 50%;
+        align-self: center;
+    }
+
+ 
+    .feature-cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 20% 5%;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+   
+    .about-us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-images, .about-us-content {
+        width: 48%;
+
+    }
+
+    .about-us-images-row1, .about-us-images-row2 {
+        flex-direction: column;
+    }
+
+    .about-us-image {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .menu-items {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        width: 80%;
+    }
+
+ 
+    .reservation-section {
+        flex-direction: column;
+    }
+
+    .reservation-content {
+        width: 100%;
+        padding: 5% 5%;
+    }
+
+    .reservation-form {
+        width: 90%;
+    }
+
+
+    .team-container {
+        flex-direction: column;
+    }
+
+    .team-member {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+
+    .testimonial-cards {
+        flex-direction: column;
+    }
+
+    .testimonial-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+
+    .footer-nav a {
+        display: block; 
+        margin: 10px 0;
+    }
+}
+
+
